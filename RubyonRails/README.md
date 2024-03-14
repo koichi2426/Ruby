@@ -1,6 +1,1 @@
-# textbook
-
-## プロジェクト作成
-```
-rails new ProjectName
-```
+# Ruby on Rails
