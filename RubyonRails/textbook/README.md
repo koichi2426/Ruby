@@ -1,1 +1,6 @@
-textbook
+# textbook
+
+## プロジェクト作成
+```
+rails new ProjectName
+```
