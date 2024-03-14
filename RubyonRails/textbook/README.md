@@ -4,3 +4,9 @@
 ```
 rails new ProjectName
 ```
+
+## ローカルホストの立ち上げ
+```
+rails server
+```
+
