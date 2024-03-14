@@ -1,1 +1,6 @@
-Ruby on Rails
+# textbook
+
+## プロジェクト作成
+```
+rails new ProjectName
+```
