@@ -22,3 +22,11 @@ ModelNameでモデルの名前を設定し、そのあとでデータの名前�
 rails generate model ModelName data1:dataformat1 data2:dataformat2
 ```
 
+マイグレーション<br>
+テーブルが作成される
+```
+rails db:migrate
+```
+
+
+
