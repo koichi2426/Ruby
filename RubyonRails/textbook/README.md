@@ -1,12 +1,18 @@
 # textbook
 
-## プロジェクト作成
+## コマンド
+プロジェクト作成
 ```
 rails new ProjectName
 ```
 
-## ローカルホストの立ち上げ
+ローカルホストの立ち上げ
 ```
 rails server
+```
+
+コントローラー作成
+```
+rails generate controller ContorollerName
 ```
 
