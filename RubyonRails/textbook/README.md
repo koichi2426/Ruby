@@ -16,3 +16,8 @@ rails server
 rails generate controller ContorollerName
 ```
 
+モデル作成
+```
+rails generate model ModelName data1:dataformat1 data2:dataformat2
+```
+
