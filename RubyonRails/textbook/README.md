@@ -28,5 +28,9 @@ rails generate model ModelName data1:dataformat1 data2:dataformat2
 rails db:migrate
 ```
 
+## サイト
+Railsガイド
+https://railsguides.jp/
+
 
 
