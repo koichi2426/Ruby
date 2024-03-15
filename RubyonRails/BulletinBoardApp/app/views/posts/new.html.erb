@@ -1,0 +1,16 @@
+<h1>新しい投稿</h1>
+
+<%
+=begin%>
+
+ フォームヘルパーで簡単かつセキュリティ対策もしっかりしたフォームを実装 
+ フォームヘルパーについてはRailsガイドのホームページで
+ 
+<%
+=end%>
+
+<%= form_with model: @article do |form| %>
+  <div><%= form.label :title %> <%= form.text_field :title %></div>
+  <div><%= form.label :content %> <%= form.text_area :content %></div>
+  <div><%= form.submit "投稿" %></div>
+<% end %>
