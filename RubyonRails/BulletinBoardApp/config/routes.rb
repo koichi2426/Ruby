@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   # localhost:3000/posts/new
   # localhost:3000/posts/create
   # のルーティングが完了した
-  resources :posts, only: [:index, :new, :create]
+  resources :posts, only: [:index, :new, :create, :edit, :update, :destroy]
 
   # ルーティング設定が完了したらコントローラーを設定する
 
