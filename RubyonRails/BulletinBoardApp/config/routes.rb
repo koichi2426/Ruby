@@ -9,5 +9,16 @@ Rails.application.routes.draw do
   # localhost:3000/posts/create
   # のルーティングが完了した
   resources :posts, only: [:index, :new, :create]
+
+  # ルーティング設定が完了したらコントローラーを設定する
+
+  # コントローラー作成コマンド
+  # ----------------------------------------------------------
+  # rails generate controller ContorollerName
+  # ----------------------------------------------------------
+  
+  # 今回はコントローラーの名前はPostsとなるので
+  # rails generate controller Posts
+  # を実行
   
 end
